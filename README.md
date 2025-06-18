@@ -33,6 +33,8 @@ Key components:
 ├── median_filter.py # Median filtering function
 ├── add_noise.py # Functions to inject Gaussian/Uniform noise
 ├── make_fb_db.py # Creates fingerprint database
+├── Button_runner.py # Controls data collection with a physical button
+├── ble_receiver.py # Listens for RSSI values from advertising beacons
 ├── fingerprints_raw.py # Generates raw fingerprints
 ├── README.md # Project documentation
 
@@ -47,7 +49,10 @@ Key components:
 - glob  
 - os  
 - csv  
-- collections  
+- collections
+- bleak
+- RPLCD
+- subprocess  
 
 Install dependencies using:
 
